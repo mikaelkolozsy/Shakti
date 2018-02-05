@@ -20,12 +20,12 @@ nav .logo{
   align-items: center;
 }
 
-
 nav .name{
   display: flex;
   position: fixed;
   margin-left: 8.5rem;
 }
+
 nav h1{
   font-size: 2rem;
   color: #C46220;
@@ -55,6 +55,7 @@ nav ul{
   margin-left: auto;
   margin-right: 1rem;
   height: 100%;
+  font-size: 1.4rem;
 }
 
 nav li{
@@ -80,6 +81,59 @@ nav a:hover{
   height:35rem;
   display: flex;
   width: 100%;
+  align-items: center;
+}
+
+.Banner{
+  display: flex;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.Banner h1{
+  font-size: 6rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.Banner h2{
+  font-size: 2rem;
+  color: white;
+  font-family: 'Raleway';
+  margin-bottom: 3rem;
+}
+
+.Banner button{
+  display: flex;
+  width: 20%;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+
+.Banner .buttons{
+  display: flex;
+}
+
+.Banner #Learn{
+  display: inline-flex;
+  margin-right: 5rem;
+  justify-content: center;
+  background-color: #C46220;
+  border-radius: 4px;
+  color: white;
+  border-color: #C46220;
+}
+
+.Banner #Shop{
+  display: inline-flex;
+  justify-content: center;
+  background-color: #0E380A;
+  border-radius: 4px;
+  color: white;
+  border-color: #0E380A;
 }
 
 
