@@ -112,7 +112,6 @@ nav a:hover{
   font-size: 1rem;
 }
 
-
 .Banner .buttons{
   display: flex;
 }
@@ -136,6 +135,53 @@ nav a:hover{
   border-color: #0E380A;
 }
 
+/*Begin Education Section*/
 
+.Education{
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
 
-main
+.Education .container{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: white;
+
+}
+
+.Education h2{
+  font-size: 3rem;
+  display: flex;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Education p{
+  display: flex;
+  line-height: 2rem;
+  font-family: 'Raleway';
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Education button{
+  display: flex;
+  width: 20%;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+#More{
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  justify-content: center;
+  background-color: #2044f7;
+  color: white;
+  border-color: #2044f7;
+  border-radius: 4px;
+}
