@@ -65,11 +65,11 @@ nav li{
 
 nav a{
   text-decoration: none;
-  color: black;
+  color: gray;
 }
 
 nav a:hover{
-  color: gray;
+  color: black;
   border-bottom: 0.4rem solid #C46220;
 }
 
@@ -148,15 +148,19 @@ nav a:hover{
   flex-direction: column;
   width: 60%;
   background-color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
 }
 
 .Education h2{
   font-size: 3rem;
   display: flex;
-  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .Education p{
@@ -184,4 +188,50 @@ nav a:hover{
   color: white;
   border-color: #2044f7;
   border-radius: 4px;
+}
+
+/*Begin Products Section*/
+
+.section2{
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+
+.Products{
+  display: flex;
+  flex-wrap: wrap;
+  width:60%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.Products .card{
+  display: flex;
+  width: 20%;
+  border-radius: 4px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f2f2f2;
+}
+
+.Products .card:hover{
+  border: 2px #0E380A solid;
+}
+
+.Products .card img{
+  display: flex;
+  height: 50%;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.Products h1{
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
 }
