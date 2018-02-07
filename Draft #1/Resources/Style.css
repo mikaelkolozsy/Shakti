@@ -87,12 +87,12 @@ nav li{
   text-decoration: none;
 }
 
-ul a{
+nav ul a{
   text-decoration: none;
   color: black;
 }
 
-ul a:hover{
+nav ul a:hover{
   border-bottom: 0.4rem solid #C46220;
 }
 
@@ -422,4 +422,46 @@ ul a:hover{
   flex-direction: column;
   width: 100%;
   background-color: #f7f7f7;
+}
+
+.index_edu{
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding-top: 1rem;
+  background-color: white;
+}
+
+.index_edu{
+  display: flex;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  color:gray;
+}
+
+.index_edu h1{
+  display: flex;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+
+
+}
+
+.index_edu h3{
+  display: flex;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+
+
 }
